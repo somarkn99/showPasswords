@@ -1,0 +1,47 @@
+/* popup.css */
+body {
+  width: 200px;
+  height: 120px;
+  margin: 0;
+  padding: 10px;
+  background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+.popup-container {
+  text-align: center;
+}
+
+.popup-title {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.popup-label {
+  font-size: 1em;
+}
+
+.popup-toggle {
+  margin-top: 5px;
+}
+
+.social-icons {
+  margin-top: 20px;
+}
+
+.icon-link {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #0077b5; /* LinkedIn blue color */
+}
+
+/* Style the GitHub icon to be black */
+.icon-link.github i {
+  font-size: 24px;
+  color: black; /* Set the color to black */
+}
+
+.icon-link i {
+  font-size: 24px;
+}
